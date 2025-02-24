@@ -1,0 +1,115 @@
+/* Estilo general del cuerpo de la aplicación */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #e0f7fa, #b2ebf2);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal de la aplicación */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del encabezado */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #00796b;
+}
+
+/* Formulario */
+form {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #00796b;
+  border-radius: 8px;
+  background: #f1f8e9;
+}
+
+form input,
+form select,
+form button {
+  display: block;
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #00796b;
+}
+
+form button {
+  background: #00796b;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background: #004d40;
+}
+
+/* Cuadrante de búsqueda */
+.search-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f8e9;
+  border-radius: 8px;
+  border: 1px solid #00796b;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #00796b;
+  font-size: 16px;
+}
+
+/* Tabla de historial */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #00796b;
+  text-align: left;
+}
+
+table th {
+  background: #00796b;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Botón de exportar */
+#exportarBtn {
+  margin-top: 20px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+}
+
+#exportarBtn:hover {
+  background-color: #004d40;
+}
